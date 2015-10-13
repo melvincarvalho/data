@@ -1,0 +1,88 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<>
+    a <http://www.w3.org/ns/pim/space#ConfigurationFile> ;
+    <http://www.w3.org/ns/solid/app#configuration> <#conf1>, <#conf10>, <#conf11>, <#conf12>, <#conf2>, <#conf3>, <#conf4>, <#conf5>, <#conf6>, <#conf7>, <#conf8>, <#conf9> .
+
+<#conf1>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A personal address book manager" ;
+    <http://www.w3.org/ns/solid/app#homepage> "https://linkeddata.github.io/contacts/" ;
+    <http://www.w3.org/ns/solid/app#icon> <https://linkeddata.github.io/contacts/images/favicon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Contacts" .
+
+<#conf10>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "CIMBA" ;
+    <http://www.w3.org/ns/solid/app#homepage> <http://cimba.co/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://cimba.co/assets/cimba-logo.png> ;
+    <http://www.w3.org/ns/solid/app#name> "CIMBA" .
+
+<#conf11>
+    <http://www.w3.org/ns/solid/app#description> "A media and art App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <http://inartes.com/> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/melvincarvalho/inartes.com/master/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "inartes" .
+
+<#conf12>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A SoLiD app for shared collaborate editing of a very simple text document" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://timbl.github.io/pad> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/data/assets/note-text.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Pad" .
+
+<#conf2>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A linked data messenger" ;
+    <http://www.w3.org/ns/solid/app#homepage> "http://webid.im/" ;
+    <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/melvincarvalho/webid.im/master/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Chat" .
+
+<#conf3>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A Hello World App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/helloworld/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/helloworld/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Hello World" .
+
+<#conf4>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A Clipboard App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/clip/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/clip/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Clip" .
+
+<#conf5>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A Video App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/video/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/video/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Video" .
+
+<#conf6>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A Chess App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/chess/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/chess/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Chess" .
+
+<#conf7>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A Explorer App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/explorer/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/explorer/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Explorer" .
+
+<#conf8>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "Warp - the linked data file manager" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://linkeddata.github.io/warp/> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://linkeddata.github.io/warp/assets/favicon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Warp" .
+
+<#conf9>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "WebID profile editor" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://linkeddata.github.io/profile-editor/> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://linkeddata.github.io/profile-editor/images/favicon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Profile Editor" .
