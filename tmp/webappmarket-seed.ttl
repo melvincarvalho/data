@@ -2,7 +2,7 @@
 
 <>
     a <http://www.w3.org/ns/pim/space#ConfigurationFile> ;
-    <http://www.w3.org/ns/solid/app#configuration> <#conf1>, <#conf10>, <#conf11>, <#conf12>, <#conf2>, <#conf3>, <#conf4>, <#conf5>, <#conf6>, <#conf7>, <#conf8>, <#conf9> .
+    <http://www.w3.org/ns/solid/app#configuration> <#conf1>, <#conf10>, <#conf11>, <#conf12>, <#conf13>, <#conf14>, <#conf15>, <#conf16>, <#conf2>, <#conf3>, <#conf4>, <#conf5>, <#conf6>, <#conf7>, <#conf8>, <#conf9> .
 
 <#conf1>
     a <http://www.w3.org/ns/solid/app#Configuration> ;
@@ -30,6 +30,34 @@
     <http://www.w3.org/ns/solid/app#homepage> <https://timbl.github.io/pad> ;
     <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/data/assets/note-text.png> ;
     <http://www.w3.org/ns/solid/app#name> "Pad" .
+
+<#conf13>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A webappmarket App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/webappmarket/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/webappmarket/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "webappmarket" .
+
+<#conf14>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "When can we meet? Scheduling a meeting etc. Llinked Data Platform interactive social app" ;
+    <http://www.w3.org/ns/solid/app#homepage> <http://linkeddata.github.io/app-schedule/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/data/assets/calendar-multiple-check.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Schedule" .
+
+<#conf15>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "A poll App for the SoLiD platform" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/poll/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/poll/images/icon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "poll" .
+
+<#conf16>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "Todo list application developed in AngularJS interacting with crosscloud architecture thru REST API" ;
+    <http://www.w3.org/ns/solid/app#homepage> <http://mzereba.github.io/todo/> ;
+    <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/data/assets/clipboard-outline.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Todo" .
 
 <#conf2>
     a <http://www.w3.org/ns/solid/app#Configuration> ;
