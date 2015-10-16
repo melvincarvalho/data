@@ -4441,6 +4441,7 @@ ublížit	hurt
 vana	bathtub
 důchodce	pensioner
 kanadský	Canadian
+chlebíček Melvin
 kolečko	wheelbarrow
 ocenění	appreciation
 odvážit	weigh out
