@@ -141,4 +141,4 @@
     <http://www.w3.org/ns/solid/app#description> "WebID profile editor" ;
     <http://www.w3.org/ns/solid/app#homepage> <https://linkeddata.github.io/profile-editor/> ;
     <http://www.w3.org/ns/solid/app#icon> <https://linkeddata.github.io/profile-editor/images/favicon.png> ;
-    <http://www.w3.org/ns/solid/app#name> "Profile Editor" .
+    <http://www.w3.org/ns/solid/app#name> "Profile" .
