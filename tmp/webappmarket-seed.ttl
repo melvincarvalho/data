@@ -36,7 +36,7 @@
     <http://www.w3.org/ns/solid/app#description> "A webappmarket App for the SoLiD platform" ;
     <http://www.w3.org/ns/solid/app#homepage> <https://melvincarvalho.github.io/webappmarket/> ;
     <http://www.w3.org/ns/solid/app#icon> <http://melvincarvalho.github.io/webappmarket/images/icon.png> ;
-    <http://www.w3.org/ns/solid/app#name> "webappmarket" .
+    <http://www.w3.org/ns/solid/app#name> "Apps" .
 
 <#conf14>
     a <http://www.w3.org/ns/solid/app#Configuration> ;
