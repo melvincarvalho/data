@@ -70,7 +70,7 @@
     a <http://www.w3.org/ns/solid/app#Configuration> ;
     <http://www.w3.org/ns/solid/app#description> "Plume is a 100% client-side blogging platform, built using Solid standards" ;
     <http://www.w3.org/ns/solid/app#homepage> <http://deiu.github.io/solid-plume/> ;
-    <http://www.w3.org/ns/solid/app#icon> <https://github.com/deiu/solid-plume/blob/gh-pages/favicon.png> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/deiu/solid-plume/gh-pages/favicon.png> ;
     <http://www.w3.org/ns/solid/app#name> "Plume" .
 
 <#conf2>
