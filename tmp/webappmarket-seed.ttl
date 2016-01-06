@@ -2,7 +2,7 @@
 
 <>
     a <http://www.w3.org/ns/pim/space#ConfigurationFile> ;
-    <http://www.w3.org/ns/solid/app#configuration> <#conf1>, <#conf10>, <#conf11>, <#conf12>, <#conf13>, <#conf14>, <#conf15>, <#conf16>, <#conf17>, <#conf18>, <#conf2>, <#conf3>, <#conf4>, <#conf5>, <#conf6>, <#conf7>, <#conf8>, <#conf9> .
+    <http://www.w3.org/ns/solid/app#configuration> <#conf1>, <#conf10>, <#conf11>, <#conf12>, <#conf13>, <#conf14>, <#conf15>, <#conf16>, <#conf17>, <#conf18>, <#conf19>, <#conf2>, <#conf20>, <#conf3>, <#conf4>, <#conf5>, <#conf6>, <#conf7>, <#conf8>, <#conf9> .
 
 <#conf1>
     a <http://www.w3.org/ns/solid/app#Configuration> ;
@@ -72,6 +72,20 @@
     <http://www.w3.org/ns/solid/app#homepage> <http://deiu.github.io/solid-plume/> ;
     <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/deiu/solid-plume/gh-pages/favicon.png> ;
     <http://www.w3.org/ns/solid/app#name> "Plume" .
+
+<#conf19>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "Inbox app to process notifications" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://github.com/solid/solid-inbox/> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/solid/solid-inbox/gh-pages/favicon.png> ;
+    <http://www.w3.org/ns/solid/app#name> "Inbox" .
+
+<#conf20>
+    a <http://www.w3.org/ns/solid/app#Configuration> ;
+    <http://www.w3.org/ns/solid/app#description> "dokieli is a decentralized article authoring, annotation, and social notification tool" ;
+    <http://www.w3.org/ns/solid/app#homepage> <https://dokie.li/> ;
+    <http://www.w3.org/ns/solid/app#icon> <https://raw.githubusercontent.com/linkeddata/dokieli/master/favicon.ico> ;
+    <http://www.w3.org/ns/solid/app#name> "Dokieli" .
 
 <#conf2>
     a <http://www.w3.org/ns/solid/app#Configuration> ;
